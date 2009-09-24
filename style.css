@@ -4,4 +4,99 @@
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 14px;
+	margin: 0;
+	padding: 8px 0 4px 0;
 }
+
+/* lets give all forms zero padding/margins */
+form
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Input boxes */
+input, textarea, button
+{
+	color: #000000;
+	font-family: verdana, sans-serif;
+}
+input, button
+{
+	font-size: 90%;
+}
+
+textarea
+{
+	font-size: 100%;
+	color: #000000;
+	font-family: verdana, sans-serif;
+}
+
+
+/* All input elements that are checkboxes or radio buttons. */
+input.check
+{
+	border: none;
+}
+
+/* Selects are a bit smaller, because it makes them look even better 8). */
+select
+{
+	font-size: 90%;
+	font-weight: normal;
+	color: #000000;
+	font-family: verdana, sans-serif;
+}
+
+/* Standard horizontal rule.. ([hr], etc.) */
+hr, .hrcolor
+{
+	height: 1px;
+	border: 0;
+	color: #666666;
+	background-color: #666666;
+}
+
+/* By default set the color on these tags as black. */
+h1, h2, h3, h4, h5, h6, h7
+{
+	color: black;
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+
+/* No image should have a border when linked. */
+a img
+{
+	border: 0;
+}
+
+/* No lines around buttons in Firefox! */
+a
+{
+	outline: none;
+}
+
+/* Reset all lists. */
+ul, ul li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+/* We can define lists to be lists tho! */
+ul.normallist
+{
+	padding-left: 2em;
+}
+
+ul.normallist li
+{
+	list-style: disc;
+}
+
+
+.jobfont {font-size: 11px}
